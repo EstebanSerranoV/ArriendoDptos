@@ -1,0 +1,21 @@
+# Se deben instalar los archivos requeridos para el correcto funcionamiento estos son:
+
+--Descargar python e intalar
+
+#Abrir una consola CMD y ejecutar estos comandos
+-- pip install pipenv
+-- pip install django
+
+#Luego dentro de la carpeta de proyecto con un documento txt llamado requirements.txt
+#Se debe abrir un CMD y dirigirse a la ruta de la carpeta del proyecto y ejecutar el sigueinte comando:
+
+-- pip install -r requirements.txt
+
+#Este comando installa las dependencias de nuestro proyecto
+
+# y el ultimo paso es ejecutar en la consola dentro de la ruta de la carpeta:
+
+-- python .\manage.py runserver
+
+
+# por ultimo entrar a la ruta del navegador http://127.0.0.1:8000/ o localhost:8000
